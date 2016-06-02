@@ -594,9 +594,10 @@ void DialogBase::DragDataReceived(DialogBase *dlgpr, GdkDragContext *context,
                 return;
         }
 
-	if (data->type == (GdkAtom)0x47) { // text, not file or directory
-		return;
-	}
+        if (data->type == gdk_atom_intern_static_string("UTF8_STRING")) { // text, not file or directory
+            gtk_drag_finish(context, TRUE, FALSE, time);
+            return;
+        }
 
         list = selection_data_get_path(data);   //获取所有文件
         dlgpr->AttachEnclosure(list);
