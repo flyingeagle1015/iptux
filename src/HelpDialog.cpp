@@ -116,6 +116,7 @@ GtkWidget *HelpDialog::CreateMoreDialog()
                   "<mdjhu@sina.com>\n"
                   "<omegao.hu@gmail.com>\n"
                   "<syranosun@gmail.com>\n"
+                  "<xiaoqiangx1015@163.com>\n"
                   "..."),
                 _("...")
         };

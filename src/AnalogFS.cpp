@@ -164,7 +164,7 @@ int64_t AnalogFS::ftwsize(const char *dir_name)
 
         struct dirent *dirt;
         int64_t sumsize = 0;
-        while(dirt = readdir(dir)) {
+        while((dirt = readdir(dir))) {
                 if(strcmp(dirt->d_name, ".") == 0) {
                         continue;
                 }

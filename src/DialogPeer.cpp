@@ -1029,7 +1029,7 @@ void DialogPeer::ShowInfoEnclosure(DialogPeer *dlgpr)
     GtkTreeModel *mdltorcv,*mdlrcvd,*mdltmp;
     GSList *ecslist;
     GtkWidget *widget,*hpaned,*pbar;
-    float progress;
+    float progress = 0.0f;
     GdkPixbuf *pixbuf, *rpixbuf, *dpixbuf;
     FileInfo *file;
     gchar *filesize,*path;
@@ -1136,7 +1136,7 @@ bool DialogPeer::UpdataEnclosureRcvUI(DialogPeer *dlgpr)
 {
     GtkTreeModel *model;
     GtkWidget *pbar,*button;
-    float progress;
+    float progress = 0.0f;
     FileInfo *file;
     GtkTreeIter iter;
     GtkIconTheme *theme;

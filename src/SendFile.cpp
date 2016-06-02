@@ -164,7 +164,7 @@ void SendFile::BcstFileInfo(GSList *plist, uint32_t opttype, GSList *filist)
         char buf[MAX_UDPLEN];
         size_t len;
         char *ptr, *name;
-        GSList *tlist,*pallist,*filelist;
+        GSList *pallist,*filelist;
         FileInfo *file;
 
         /* 初始化 */

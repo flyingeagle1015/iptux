@@ -36,12 +36,12 @@ msgstr "创建文件夹\"%s\"失败，%s"
 
 #. Fail to determine file type, return 0 (判断文件类型失败，直接返回 0)
 #: src/AnalogFS.cpp:149
-#, fuzzy, c-format
+#, c-format
 msgid "stat file \"%s\" failed: %s"
-msgstr "查看文件\"%s\"状态失败，%s\n"
+msgstr "查看文件\"%s\"状态失败，%s"
 
 #: src/AnalogFS.cpp:161
-#, fuzzy, c-format
+#, c-format
 msgid "opendir on \"%s\" failed: %s"
 msgstr "打开文件夹\"%s\"失败，%s"
 
@@ -185,7 +185,7 @@ msgstr "自动清空聊天历史记录"
 
 #: src/DataSettings.cpp:335
 msgid "Save the chat history"
-msgstr "保存聊天历史"
+msgstr "保存系统日志"
 
 #: src/DataSettings.cpp:340
 msgid "Use the Blacklist (NOT recommended)"
@@ -443,7 +443,6 @@ msgstr ""
 "密码不一致！"
 
 #: src/dialog.cpp:226
-#, fuzzy
 msgid "Please select a folder to save files."
 msgstr "请选择一个声音文件"
 
@@ -493,9 +492,9 @@ msgid "Descending"
 msgstr "降序"
 
 #: src/DialogPeer.cpp:231
-#, fuzzy, c-format
+#, c-format
 msgid "Talk with %s(%s) IP:%s"
-msgstr "与%s对话"
+msgstr "与%s(%s)对话 IP:%s"
 
 #: src/DialogPeer.cpp:329
 msgid "Info."
@@ -588,7 +587,6 @@ msgid "Please select a picture to insert the buffer"
 msgstr "请选择插入缓冲区的图片"
 
 #: src/DialogPeer.cpp:789
-#, fuzzy
 msgid "Enclosure."
 msgstr "附件"
 
@@ -606,10 +604,9 @@ msgstr "接受"
 
 #: src/DialogPeer.cpp:853
 msgid "Detail"
-msgstr ""
+msgstr "详情"
 
 #: src/DialogPeer.cpp:884
-#, fuzzy
 msgid "File received."
 msgstr "收到消息"
 
@@ -628,7 +625,7 @@ msgstr "大小"
 
 #: src/DialogPeer.cpp:995
 msgid "Name"
-msgstr ""
+msgstr "文件名"
 
 #: src/DialogPeer.cpp:1096 src/DialogPeer.cpp:1169
 #, c-format
@@ -646,12 +643,11 @@ msgid "%s Of %s Received."
 msgstr ""
 
 #: src/DialogPeer.cpp:1109
-#, fuzzy, c-format
+#, c-format
 msgid "Mission Completed!"
 msgstr "已完成"
 
 #: src/DialogPeer.cpp:1321
-#, fuzzy
 msgid "Remove Selected"
 msgstr "反选"
 
@@ -697,7 +693,6 @@ msgid "..."
 msgstr "..."
 
 #: src/HelpDialog.cpp:104
-#, fuzzy
 msgid ""
 "Project Home: \n"
 "https://github.com/iptux-src/iptux\n"
@@ -1177,30 +1172,45 @@ msgstr "删除文件\"%s\"失败，%s\n"
 msgid "Rmdir() directory \"%s\" failed, %s\n"
 msgstr "删除文件夹\"%s\"失败，%s\n"
 
-#~ msgid "Pal's Shared Resources"
-#~ msgstr "好友的共享资源"
+msgid "Pal's Shared Resources"
+msgstr "好友的共享资源"
 
-#~ msgid "Files Receive Management"
-#~ msgstr "文件接收管理器"
+msgid "Files Receive Management"
+msgstr "文件接收管理器"
 
-#~ msgid "Recv"
-#~ msgstr "接收"
+msgid "Recv"
+msgstr "接收"
 
-#~ msgid "Free:%s Total:%s"
-#~ msgstr "空闲:%s 总计:%s"
+msgid "Free:%s Total:%s"
+msgstr "空闲:%s 总计:%s"
 
-#~ msgid "Chat History"
-#~ msgstr "聊天历史"
+msgid "Chat History"
+msgstr "聊天历史"
 
-#~ msgid "Choose enclosure files"
-#~ msgstr "选择文件附件"
+msgid "Choose enclosure files"
+msgstr "选择文件附件"
 
-#~ msgid "Choose enclosure folders"
-#~ msgstr "选择文件夹附件"
+msgid "Choose enclosure folders"
+msgstr "选择文件夹附件"
 
-#~ msgid ""
-#~ "<span weight=\"heavy\" underline=\"error\">\n"
-#~ "Can't send an empty message!!</span>"
-#~ msgstr ""
-#~ "<span weight=\"heavy\" underline=\"error\">\n"
-#~ "发送内容不能为空！！</span>"
+msgid ""
+"<span weight=\"heavy\" underline=\"error\">\n"
+"Can't send an empty message!!</span>"
+msgstr ""
+"<span weight=\"heavy\" underline=\"error\">\n"
+"发送内容不能为空！！</span>"
+
+msgid "Sending progress."
+msgstr "发送进度"
+
+msgid "File to send."
+msgstr "发送文件"
+
+msgid "Dirs"
+msgstr "目录"
+
+msgid "Files"
+msgstr "文件"
+
+msgid "Path"
+msgstr "完整路径"
